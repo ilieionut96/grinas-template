@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css?family=Oxygen&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Fjalla+One&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.up {
+  width: 55%;
+  text-align: center;
+  margin: auto;
+  font-family: "Oxygen", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 1%;
+  color: #130f40;
+}
+
+.up .img1 {
+  position: absolute;
+  right: 1%;
+  transform: rotate(33deg);
+  width: 280px;
+  opacity: 0.8;
+  z-index: +1;
+  overflow: hidden;
+  top: 16%;
+}
+.up .img2 {
+  position: absolute;
+  left: 1%;
+  top: 16%;
+  transform: rotate(-33deg);
+  width: 280px;
+  opacity: 0.8;
+  z-index: +1;
+  overflow: hidden;
+}
+
+@media all and (max-width: 950px) {
+  .up .img1 {
+    display: none;
+  }
+  .up .img2 {
+    display: none;
+  }
+}
+
+@media all and (max-width: 1950px) {
+  .up .img1 {
+    width: 200px;
+  }
+  .up .img2 {
+    width: 200px;
+  }
+}
+
+@media all and (max-width: 950px) {
+  .up {
+    width: 70%;
+    font-size: 13px;
+    margin-top: 2%;
+  }
+}
+
+@media all and (max-width: 550px) {
+  .up {
+    width: 80%;
+    font-size: 10px;
+    margin-top: 2%;
+  }
+}
+
+.sticle img {
+  width: 220px;
+}
+
+.sticle {
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2%;
+}
+
+.sticle span {
+  font-family: "Oxygen", sans-serif;
+  font-size: 17px;
+  color: #130f40;
+}
+
+.sticle p {
+  font-family: "Fjalla One", sans-serif;
+  font-size: 18px;
+  color: #eb4d4b;
+}
+
+.sticle a {
+  text-decoration: none;
+  color: #130f40;
+}
+
+.sticle a:hover {
+  text-shadow: 0px 2px 15px #eb4d4b;
+}
+
+.grinas-rose:hover,
+.grinas-dark:hover,
+.grinas-sec:hover,
+.grinas-semi-sec:hover,
+.grinas-white:hover {
+  transform: scale(1.15);
+}
+
+.grinas-rose,
+.grinas-dark,
+.grinas-sec,
+.grinas-semi-sec,
+.grinas-white {
+  transition: 1s;
+}
+@media all and (max-width: 1350px) {
+  .grinas-rose:hover,
+  .grinas-dark:hover,
+  .grinas-sec:hover,
+  .grinas-semi-sec:hover,
+  .grinas-white:hover {
+    transform: scale(1.05);
+  }
+}
+
+@media all and (max-width: 520px) {
+  .grinas-rose:hover,
+  .grinas-dark:hover,
+  .grinas-sec:hover,
+  .grinas-semi-sec:hover,
+  .grinas-white:hover {
+    transform: scale(1.02);
+  }
+  .grinas-rose,
+  .grinas-dark,
+  .grinas-sec,
+  .grinas-semi-sec,
+  .grinas-white {
+    transition: 0.7s;
+  }
+  .sticle img {
+    width: 120px;
+  }
+}
+
+@media all and (max-width: 1360px) {
+  .sticle img {
+    width: 140px;
+  }
+  .sticle {
+    display: flow-root;
+    margin-bottom: 2%;
+  }
+
+  .sticle p {
+    margin-bottom: 3%;
+  }
+}

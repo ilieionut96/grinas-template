@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css?family=Oxygen&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Fjalla+One&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Lilita+One&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.grinas-rose img,
+.grinas-dark img,
+.grinas-sec img,
+.grinas-semi-sec img,
+.grinas-white img {
+  width: 170px;
+  transition: 1s;
+}
+
+.grinas-rose img:active,
+.grinas-dark img:active,
+.grinas-sec img:active,
+.grinas-semi-sec img:active,
+.grinas-white img:active {
+  transform: scale(1.2);
+}
+
+.grinas-rose,
+.grinas-dark,
+.grinas-sec,
+.grinas-semi-sec,
+.grinas-white {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  width: 500px;
+}
+
+.grinas-rose i,
+.grinas-dark i,
+.grinas-sec i,
+.grinas-semi-sec i,
+.grinas-white i {
+  display: block;
+  width: 80%;
+  text-align: center;
+  margin: auto;
+  margin-top: 3%;
+  font-size: 16px;
+}
+
+.grinas-rose h3,
+.grinas-dark h3,
+.grinas-sec h3,
+.grinas-semi-sec h3,
+.grinas-white h3 {
+  color: #eb4d4b;
+  font-family: "Oxygen", sans-serif;
+  font-size: 23px;
+}
+
+.grinas-rose b,
+.grinas-dark b,
+.grinas-sec b,
+.grinas-semi-sec b,
+.grinas-white b {
+  color: #130f40;
+  font-family: "Fjalla One", sans-serif;
+  font-size: 21px;
+  letter-spacing: 1px;
+}
+
+.grinas-rose button,
+.grinas-dark button,
+.grinas-sec button,
+.grinas-semi-sec button,
+.grinas-white button {
+  border: none;
+  background: linear-gradient(to right, #e52d27, #b31217);
+  text-transform: uppercase;
+  padding: 12px 32px;
+  cursor: pointer;
+  box-shadow: 0px 1px 6px black;
+  font-family: "Lilita One", cursive;
+  font-size: 18px;
+  border-radius: 7px;
+}
+
+.grinas-rose button:hover,
+.grinas-dark button:hover,
+.grinas-sec button:hover,
+.grinas-semi-sec button:hover,
+.grinas-white button:hover {
+  background: linear-gradient(to right, #b31217, #e52d27);
+  text-decoration: underline;
+  box-shadow: 0px 2px 8px black;
+}
+
+.shop {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+@media screen and (max-width: 320px) {
+  .grinas-rose img,
+  .grinas-dark img,
+  .grinas-sec img,
+  .grinas-semi-sec img,
+  .grinas-white img {
+    width: 110px;
+  }
+  .grinas-rose,
+  .grinas-dark,
+  .grinas-sec,
+  .grinas-semi-sec,
+  .grinas-white {
+    width: 400px;
+    margin-top: 4%;
+    margin-bottom: 4%;
+  }
+}
+@media screen and (max-width: 550px) {
+  .grinas-rose,
+  .grinas-dark,
+  .grinas-sec,
+  .grinas-semi-sec,
+  .grinas-white {
+    width: 400px;
+    margin-top: 4%;
+    margin-bottom: 4%;
+  }
+  .grinas-rose img,
+  .grinas-dark img,
+  .grinas-sec img,
+  .grinas-semi-sec img,
+  .grinas-white img {
+    width: 140px;
+    transition: 0.4s;
+  }
+
+  .grinas-rose img:active,
+  .grinas-dark img:active,
+  .grinas-sec img:active,
+  .grinas-semi-sec img:active,
+  .grinas-white img:active {
+    transform: scale(1.1);
+  }
+}

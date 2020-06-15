@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat|Raleway|Roboto&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.color-blog {
+  height: 70px;
+  background: #ffa502;
+}
+
+.blog {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  left: 50%;
+  top: 14%;
+  transform: translate(-50%, 15%);
+}
+
+.blog1 {
+  background: #dff9fb;
+  box-shadow: 0px 2px 10px #130f40;
+  width: 700px;
+  height: 250px;
+  display: flex;
+  border-radius: 15px;
+  margin-top: 2%;
+  margin-bottom: 1%;
+}
+
+.blog2 {
+  background: #dff9fb;
+  box-shadow: 0px 2px 10px #130f40;
+  width: 700px;
+  height: 250px;
+  display: flex;
+  border-radius: 15px;
+  margin-top: 4%;
+  margin-bottom: 1%;
+}
+
+.blog3 {
+  background: #dff9fb;
+  box-shadow: 0px 2px 10px #130f40;
+  width: 700px;
+  height: 250px;
+  display: flex;
+  border-radius: 15px;
+  margin-top: 4%;
+  margin-bottom: 1%;
+}
+
+.blog-img1 img,
+.blog-img2 img,
+.blog-img3 img {
+  margin-left: -25%;
+  width: 200px;
+  border-radius: 15px;
+  margin-top: 12%;
+}
+
+.blog-text1,
+.blog-text2,
+.blog-text3 {
+  margin-top: 5%;
+  width: 70%;
+  margin-right: 5%;
+}
+
+.blog-text1 h1,
+.blog-text2 h1,
+.blog-text3 h1 {
+  font-family: "Roboto", sans-serif;
+  color: #130f40;
+  letter-spacing: 1px;
+  margin-left: 2%;
+}
+
+.blog-text1 p,
+.blog-text2 p,
+.blog-text3 p {
+  font-family: "Raleway", sans-serif;
+  color: #130f40;
+  font-weight: 700;
+  margin-bottom: 2%;
+  margin-top: 2%;
+  margin-left: 1%;
+}
+.blog-text1 span,
+.blog-text2 span,
+.blog-text3 span {
+  font-family: "Montserrat", sans-serif;
+  margin-left: 2%;
+  font-size: 14px;
+}
+
+.blog-text1 a,
+.blog-text2 a,
+.blog-text3 a {
+  font-family: "Raleway", sans-serif;
+  margin-left: 70%;
+  color: #30336b;
+}
+
+.blog-text1 a:hover,
+.blog-text2 a:hover,
+.blog-text3 a:hover {
+  color: #3742fa;
+}
+@media screen and (max-width: 360px) {
+  .blog {
+    margin-top: 13%;
+  }
+}
+@media screen and (max-width: 950px) {
+  .blog {
+    top: 24%;
+  }
+  .color-blog {
+    height: 50px;
+    background: #ffa502;
+    margin-top: 2px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .blog1,
+  .blog2,
+  .blog3 {
+    width: 310px;
+    height: 400px;
+    display: flow-root;
+    margin-bottom: 30%;
+  }
+  .blog-img1 img,
+  .blog-img2 img,
+  .blog-img3 img {
+    margin-top: -25%;
+    margin-left: 17%;
+    width: 200px;
+    border-radius: 15px;
+  }
+
+  .blog-text1,
+  .blog-text2,
+  .blog-text3 {
+    margin-top: 2%;
+    width: 96%;
+    margin: 2%;
+  }
+
+  .blog-text1 a,
+  .blog-text2 a,
+  .blog-text3 a {
+    margin-left: 50%;
+  }
+
+  .blog-text1 h1,
+  .blog-text2 h1,
+  .blog-text3 h1 {
+    font-size: 26px;
+  }
+
+  .blog-text1 p,
+  .blog-text2 p,
+  .blog-text3 p {
+    font-weight: 600;
+  }
+  .blog-text1 span,
+  .blog-text2 span,
+  .blog-text3 span {
+    font-size: 13px;
+  }
+}

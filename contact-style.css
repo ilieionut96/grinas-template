@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css?family=Kanit|Lilita+One|Roboto&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.contact-section {
+  text-align: center;
+  padding: 90px;
+  padding-top: 2%;
+  display: flex;
+}
+
+.inner-width {
+  max-width: 600px;
+  margin: auto;
+}
+
+.contact-section h1 {
+  text-align: center;
+  color: #e84118;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  padding-bottom: 40px;
+  font-family: "Lilita One", cursive;
+  font-size: 35px;
+}
+
+.name,
+.email,
+.message {
+  text-align: left;
+  background: none;
+  border: none;
+  outline: none;
+  font-size: 17px;
+  padding: 3px 4px;
+  border-bottom: 2px solid black;
+  margin-bottom: 40px;
+  font-family: "Kanit", sans-serif;
+  color: black;
+}
+
+.name {
+  float: left;
+  width: 45%;
+}
+
+.email {
+  float: right;
+  width: 45%;
+}
+
+.message {
+  max-width: 100%;
+  min-width: 100%;
+}
+
+.contact-section button {
+  background: #fbc531;
+  border: 2px solid black;
+  font-weight: 700;
+  border-radius: 7px;
+  width: 150px;
+  padding: 10px;
+  font-size: 20px;
+  transition: 0.4;
+  cursor: pointer;
+  font-family: "Kanit", sans-serif;
+}
+
+.contact-section button:hover {
+  border: 2px solid;
+  color: black;
+  background: #e84118;
+  padding: 10px;
+  font-size: 20px;
+}
+@media screen and (max-width: 600px) {
+  .name {
+    clear: both;
+    width: 100%;
+  }
+  .email {
+    clear: both;
+    width: 100%;
+  }
+  .contact-section {
+    padding: 5px;
+  }
+}
+@media screen and (max-width: 950px) {
+  .image img {
+    width: 135px;
+  }
+  .contact-section h1 {
+    font-size: 20px;
+  }
+  .contact-section {
+    padding: 5px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .contact-section {
+    display: flow-root;
+  }
+  .contact-section {
+    padding: 5px;
+  }
+  .image img {
+    width: 200px;
+  }
+  .contact-section button {
+    margin-top: -20px;
+  }
+}
